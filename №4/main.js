@@ -17,5 +17,5 @@ function getVowels(VowelsList) {
   }
 
   let SomeString = prompt(`Введите строку:`);
-  let new_Search = getVowels(SomeString);
-  alert(`количество гласных букв:${new_Search(VowelsList)}`);
+  let VowelsSearch = getVowels(SomeString);
+  alert(`количество гласных букв: ${VowelsSearch(VowelsList)}`);
