@@ -10,7 +10,7 @@ class Animal {
   }
 
   say() {
-    console.log(`${this.name}: вес ${this.weight}, возраст ${this.age}, звук ${this.voise}`);
+    console.log(`${this.name}: вес ${this.weight}, возраст ${this.age}, звук ${this.voice}`);
   }
 }
 
